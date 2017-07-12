@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ToggleButton
+        android:id="@+id/Round"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AntiAliasButton"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Round"
+        android:layout_alignBottom="@+id/Round"
+        android:layout_alignParentLeft="true"
+        android:text="RoundSpacing" />
+
+    <ToggleButton
+        android:id="@+id/AntiAliasButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Round"
+        android:layout_alignParentTop="true"
+        android:checked="true"
+        android:text="ToggleButton" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/AntiAliasButton"
+        android:layout_alignBottom="@+id/AntiAliasButton"
+        android:layout_alignRight="@+id/textView2"
+        android:text="AntiAlias"
+        android:textSize="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="Settings"
+        />
+
+    <item
+        android:id="@+id/menu_load"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="Load"/>
+
+</menu>
